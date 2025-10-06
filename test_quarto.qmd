@@ -5,5 +5,8 @@ editor: visual
 ---
 
 ```{r}
-lllllllllllllllllllljjjkkkkk
+install.packages("renv")
+renv::init()
+install.packages("ggplot2")  # exemple
+renv::snapshot()             # enregistre la dépendance
 ```
